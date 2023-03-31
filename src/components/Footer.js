@@ -18,7 +18,7 @@ const Footer = () => {
         {/* ============ LogoIcon Start here ============ */}
         <div className='flex flex-col gap-7'>
           <img className='w-32' src={bazarLogo} alt='BazarLogo'></img>
-          <p className='text-white text-sm tracking-wide'>@ ReactBD.com</p>
+          <p className='text-white text-sm tracking-wide'>@ Bazar-ecommerce.com</p>
           <img className='w-56' src={paymentLogo} alt="paymentLogo"></img>
           <div className='flex gap-5 text-lg text-gray-500'>
             <ImGithub className="hover:text-white duration-300 cursor-pointer"/>
@@ -31,7 +31,7 @@ const Footer = () => {
         {/* ============ LogoIcon End here ============== */}
         {/* ============ LocateUs Start here ============ */}
         <div>
-          <h2 className='text-2x1 font-semibold text-white mb-4'>locate us</h2>
+          <h2 className='text-2x1 font-semibold text-white mb-4'>Locate us</h2>
           <div className='text-base flex flex-col gap-2'>
               <p>Dumitru-Vlad-Cristian</p>
               <p>Phone: 0724 699 867</p>
