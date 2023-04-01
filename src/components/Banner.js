@@ -16,8 +16,7 @@ const Banner = () => {
   const nextSlide=()=>{
       setCurrentSlide(currentSlide === 3 ? 0 : (prev) => prev + 1)
   };
-  console.log(currentSlide);
-  return (
+      return (
     <div className='w-full h-auto overflow-x-hidden'>
       <div className='h-[650px] w-screen relative'>
         <div 

@@ -7,14 +7,14 @@ import {
   FaYoutube,
   FaHome,
 } from "react-icons/fa";
-import { bazarLogo, paymentLogo } from '../assets';
+import { bazarLogo, paymentLogo, footerbg } from '../assets';
 import { MdLocationOn } from "react-icons/md";
 import { BsPersonFill, BsPaypal } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className='bg-gray-300 text-[#949494] py-20 font-titleFont'>
-      <div className='max-w-screen-x1 mx-auto grid grid-cols-4'>
+    <div className=' bg-[url(https://comuti.in/wp-content/uploads/2021/07/footer-bg.png)] bg-cover text-[#949494] py-20 font-titleFont'>
+       <div className='max-w-screen-x1 mx-auto grid grid-cols-4'>
         {/* ============ LogoIcon Start here ============ */}
         <div className='flex flex-col gap-7'>
           <img className='w-32' src={bazarLogo} alt='BazarLogo'></img>
