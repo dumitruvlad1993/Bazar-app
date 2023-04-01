@@ -79,7 +79,7 @@ const Footer = () => {
             type="text">
           </input>
           <button className='text-sm border text-white border-t-0 hover:bg-gray-900 active:bg-white active:text-black'>
-            Subscribe
+            Subscribe for our Latest offers
             </button>
         </div>
         {/* ============ LogoIcon End here ============== */}
