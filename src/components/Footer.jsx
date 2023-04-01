@@ -7,7 +7,7 @@ import {
   FaYoutube,
   FaHome,
 } from "react-icons/fa";
-import { bazarLogo, paymentLogo, footerbg } from '../assets';
+import { bazarLogo, paymentLogo } from '../assets';
 import { MdLocationOn } from "react-icons/md";
 import { BsPersonFill, BsPaypal } from "react-icons/bs";
 

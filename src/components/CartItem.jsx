@@ -46,12 +46,9 @@ const CartItem = () => {
                 onClick={() =>
                 dispatch(
                   decrementQuantity({
-                    _id: item._id,
-                    title:item.title,
-                    image: item.image,
-                    price: item.price,
+                    ...item,
                     quantity: 1,
-                    description: item.description,
+
                   })
                 )
               }
@@ -64,12 +61,8 @@ const CartItem = () => {
               onClick={() =>
               dispatch(
                 incrementQuantity({
-                  _id: item._id,
-                  title: item.title,
-                  image: item.image,
-                    price: item.price,
-                    quantity: 1,
-                    description: item.description,
+                  ...item,
+                  quantity: 1,
                 })
               )
             }
